@@ -1,6 +1,5 @@
 <div class="dashboard-wrapper">
-    <div class="card">Card 1</div>
-    <div class="card">Card 2</div>
-    <div class="card">Card 3</div>
-    <div class="card">Card 4</div>
+    <div *ngFor="let category of browsingCategories">
+        <div class="card"> {{category}} </div>
+    </div>
 </div>

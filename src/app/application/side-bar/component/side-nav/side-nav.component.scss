@@ -4,9 +4,6 @@
 
 .sidenav {
   width: 200px;
-}
-
-.sidenav {
   background: inherit;
 }
 
@@ -14,4 +11,11 @@
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+mat-nav-list:hover {
+  background-color: #3f51b5;
+  a {
+    color: white !important;
+  }
 }
