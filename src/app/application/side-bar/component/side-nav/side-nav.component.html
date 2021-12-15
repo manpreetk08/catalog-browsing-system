@@ -8,7 +8,6 @@
     [opened]="(isHandset$ | async) === false"
   >
     <mat-toolbar color="primary" (click)="drawer.toggle()">Menu</mat-toolbar>
-
     <mat-nav-list *ngFor="let category of browsingCategories">
       <a mat-list-item href="#">{{ category }}</a>
     </mat-nav-list>
